@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    background-color: rgb(10, 64, 84);
+    border-radius: 25px;
+    font-family: Helvetica, sans-serif;
+}
+input{
+    font-size: 1rem;
+    width: 150px;
+    text-align: center;
+    font-weight:  bold;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(31, 109, 150);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 85, 131);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(0, 85, 101);
+}
+#inputcontainer{
+    background-color: rgb(10, 64, 84);
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
+#carlists,#results,#whodrives{
+    background-color: rgb(47, 47, 47);
+    border-radius: 50px;
+    text-align: center;
+}
+#carlists{
+    margin-top: 50px;
+    padding: 20px;
+}
